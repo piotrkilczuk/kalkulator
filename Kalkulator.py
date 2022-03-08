@@ -16,16 +16,16 @@ if dzialanie == "2":
     liczba1 = input("Podaj pierwsza liczbe : ")
     liczba2 = input("Podaj druga liczbe : ")
     print("Odejmuje : " + liczba1 + " - " + liczba2)
-    print("Wynik to : " + str(int(liczba1) + int(liczba2)))
+    print("Wynik to : " + str(int(liczba1) - int(liczba2)))
 
 if dzialanie == "3":
     liczba1 = input("Podaj pierwsza liczbe : ")
     liczba2 = input("Podaj druga liczbe : ")
     print("Mnoze : " + liczba1 + " * " + liczba2)
-    print("Wynik to : " + str(int(liczba1) + int(liczba2)))
+    print("Wynik to : " + str(int(liczba1) * int(liczba2)))
 
 if dzialanie == "4":
     liczba1 = input("Podaj pierwsza liczbe : ")
     liczba2 = input("Podaj druga liczbe : ")
     print("Dziele : " + liczba1 + " / " + liczba2)
-    print("Wynik to : " + str(int(liczba1) + int(liczba2)))
+    print("Wynik to : " + str(int(liczba1) / int(liczba2)))
